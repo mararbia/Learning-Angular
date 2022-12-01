@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./second-component.component.css']
 })
 export class SecondComponentComponent {
-  nome = "Mara";
-  birth_date = "1986-09-06";
+  nome = "João";
+  birth_date = "1930-09-06";
+  urlImage = "/assets/joao.jpg";
+
+  mostrarDataNascimento(){
+    alert(`A data de nascimento é: ${this.birth_date}`);
+  }
 }
