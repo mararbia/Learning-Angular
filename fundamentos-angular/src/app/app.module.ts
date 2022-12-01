@@ -4,11 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SecondComponentComponent } from './second-component/second-component.component';
+import { MultiplyByPipe } from './multiply-by.pipe';
+import { PipeCustomizedComponent } from './pipe-customized/pipe-customized.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponentComponent
+    FirstComponentComponent,
+    SecondComponentComponent,
+    MultiplyByPipe,
+    PipeCustomizedComponent
   ],
   imports: [
     BrowserModule,
