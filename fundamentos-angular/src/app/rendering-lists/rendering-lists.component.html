@@ -1,0 +1,9 @@
+<h2>Renderizando uma lista de dados</h2>
+
+<ul class="product-list">
+  <li *ngFor="let cellphone of cellphones ">
+    <strong>{{ cellphone.name }}</strong>
+    <p>{{ cellphone.description }}</p>
+    <span [ngClass]="cellphone.soldOut ? 'esgotado' : ''">{{ cellphone.soldOut ? "esgotado" : "disponível" }}</span>
+  </li>
+</ul>
