@@ -15,6 +15,8 @@ import { ParentComponentComponent } from './parent-component/parent-component.co
 import { ChildComponentComponent } from './child-component/child-component.component';
 import { Service1ExampleComponent } from './service1-example/service1-example.component';
 import { Service2ExampleComponent } from './service2-example/service2-example.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { ParentLifecycleComponent } from './parent-lifecycle/parent-lifecycle.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { Service2ExampleComponent } from './service2-example/service2-example.co
     ChildComponentComponent,
     Service1ExampleComponent,
     Service2ExampleComponent,
+    LifecycleComponent,
+    ParentLifecycleComponent,
   ],
   imports: [
     BrowserModule,
